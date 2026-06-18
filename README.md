@@ -32,6 +32,7 @@
     pip install -r requirements.txt
 
 ##📂    Dataset Preparation
+       
         data_path/
         ├── source_1/ 
         │   ├── 1.jpg
@@ -39,6 +40,7 @@
         └── source_2/           
             ├── 1.jpg
             └── 2.jpg
+            
 ##🚀 Quick Start (Zero-Shot Fusion)
 Because our framework utilizes Deep Image Prior, the optimization and fusion happen simultaneously on the fly for each image pair. No pre-training phase is required.
 
